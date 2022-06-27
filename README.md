@@ -5,4 +5,6 @@
   $ git add .            
   $ git commit -m "Initial commit"
   $ git push origin main
-
+ $ yarn add bootstrap
+ $ yarn add reactstrap 
+ $ yarn add react-router-dom@5.3.0
