@@ -33,9 +33,15 @@ describe("When App.js renders to the user", ()=>{
   it("it provides a path to the home component", ()=>{
     // .find() attribute syntax ('[]')
     const renderedHomePath = appRender.find('[path="/"]')
-    console.log(renderedHomePath.debug())
-    console.log(renderedHomePath.props().component)
+    // .debug()/ .props() allows us to look at the rendered element more clearly to assert on different attributes or facets the element may contain
+    console.log("debug", renderedHomePath.debug())
+    console.log("props", renderedHomePath.props())
+    console.log("Props with component called as a key using dot notation", renderedHomePath.props().component)
+
+
     expect(renderedHomePath.length).toEqual(1)
+    // home as a component variable must be imported for this assertion to work.
+      // this is different from a component call
     expect(renderedHomePath.props().component).toEqual(Home)
   })
 })
