@@ -13,6 +13,7 @@ import {
   Switch
 } from 'react-router-dom'
 import mockCats from './mockCats.js'
+import './App.css'
 
  class App extends Component {
   constructor(props){
