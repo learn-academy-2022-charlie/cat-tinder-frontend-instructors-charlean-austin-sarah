@@ -13,6 +13,7 @@ import {
   Switch
 } from 'react-router-dom'
 import mockCats from './mockCats.js'
+import './App.css'
 
  class App extends Component {
   constructor(props){
@@ -27,7 +28,7 @@ import mockCats from './mockCats.js'
 
       <Router>
         <Header/>
-        <h1>Welcome to Cat Tinder -- App.js</h1>
+        <h1>Welcome to Cat Tinder </h1>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/catindex" component={CatIndex} />
