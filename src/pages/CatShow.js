@@ -22,7 +22,6 @@ class CatShow extends Component {
                 <CardTitle>Hi, my name is {cat.name}</CardTitle>
                 <CardSubtitle>{cat.age}</CardSubtitle>
                 <CardText>{cat.enjoys}</CardText>
-                <Button>Button</Button>
               </CardBody>
             </Card>
         }
