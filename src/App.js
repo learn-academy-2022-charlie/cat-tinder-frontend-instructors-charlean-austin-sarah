@@ -28,7 +28,7 @@ import './App.css'
 
       <Router>
         <Header/>
-        <h1>Welcome to Cat Tinder -- App.js</h1>
+        <h1>Welcome to Cat Tinder </h1>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/catindex" component={CatIndex} />
