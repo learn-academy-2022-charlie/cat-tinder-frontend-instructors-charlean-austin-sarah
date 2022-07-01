@@ -193,3 +193,20 @@ import { Redirect } from 'react-router-dom'
 ```javascript
 {this.state.submitted && <Redirect to="/catindex" />}
 ```
+
+## Fetch
+
+- Fetch a method to request from the front end to grab data from the backend
+- Fetch has a promise - pending, fulfilled/resolved, rejected
+- Fetch method will be placed on the front end (react). It will be matched with a controller method on the backend (rails).
+
+> CRUD Action ---> controller method
+
+> Create ---> Create
+
+> Read ---> Index
+
+> Update ---> Update
+
+> Delete ---> Destroy
+
