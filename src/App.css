@@ -7,15 +7,16 @@
 .page-body {
   text-align: center;
   margin: 3rem;
-  height: 110vh;
+  min-height: calc(100vh - 34px);
 }
 
 /* ---FOOTER--- */
 footer {
   font-size: 20px;
   position: sticky;
-  bottom: 0;
+  margin: auto;
   width: 100%;
+  height: auto;
   background-color: #FFFEF1;
   display: flex;
   justify-content: space-around;
@@ -69,6 +70,7 @@ header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-content: center; 
 }
 .card.card-body {
   width: 300px;
